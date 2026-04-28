@@ -72,10 +72,12 @@ python3 scripts/research_plan.py
 
 保存到：`workspace/竞品分析/竞品周报-{date}.md`
 
-### 步骤 5：同步至飞书
+### 步骤 5：同步至飞书（创建 + 写入内容）
 
-1. 用 `feishu_doc`（action: create）创建飞书文档
-2. 将报告链接发送给用户
+1. 用 `feishu_doc`（action: create）创建飞书文档，获取 `doc_token`
+2. **立即用 `feishu_doc`（action: write, doc_token=上一步返回值）将步骤 4 生成的完整 Markdown 报告内容写入文档**
+   - ⚠️ 必须确认 write 返回 `success: true` 且 `blocks_added > 0`，否则重试或报错提醒用户
+3. 将报告链接发送给用户
 
 ## 输出格式规则
 
