@@ -100,9 +100,6 @@
 | **今日头条** | https://www.toutiao.com/ | 自媒体 + 媒体聚合 |
 | **Bilibili** | https://www.bilibili.com/ | 视频评测 + 官方动态 |
 | **抖音** | https://www.douyin.com/ | 用户真实体验分享 |
-| **搜狐科技** | https://www.sohu.com/ | 科技新闻转载 |
-| **新浪科技** | https://finance.sina.com.cn/tech/ | 科技新闻转载 |
-| **MyZaker** | https://www.myzaker.com/ | 系统更新深度报道 |
 
 > 💡 IT之家 搜索示例：`site:ithome.com/tag/huawei 相册 更新`
 > 💡 酷安 搜索示例：`site:coolapk.com 小米 相册`
