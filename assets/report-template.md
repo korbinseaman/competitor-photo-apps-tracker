@@ -10,57 +10,33 @@
 
 {content_or_none}
 
-**信息来源：**
-- {sources}
-
 ## Google {app_name}
 
 {content_or_none}
-
-**信息来源：**
-- {sources}
 
 ## 华为 {app_name}
 
 {content_or_none}
 
-**信息来源：**
-- {sources}
-
 ## 小米 {app_name}
 
 {content_or_none}
-
-**信息来源：**
-- {sources}
 
 ## OPPO {app_name}
 
 {content_or_none}
 
-**信息来源：**
-- {sources}
-
 ## VIVO {app_name}
 
 {content_or_none}
-
-**信息来源：**
-- {sources}
 
 ## 荣耀 {app_name}
 
 {content_or_none}
 
-**信息来源：**
-- {sources}
-
 ## 三星 {app_name}
 
 {content_or_none}
-
-**信息来源：**
-- {sources}
 
 ---
 
