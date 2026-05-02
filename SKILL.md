@@ -89,7 +89,9 @@ python3 scripts/research_plan.py --app "{app_name}"
 - **真实性校验**：优先采用官方公告、权威科技媒体报道；社区/自媒体信息需标注来源类型并交叉验证
 - 如果无法确认发布时间或来源可疑，标注「⚠️ 待核实」
 
-**⚠️ 每条发现必须附上原始信息来源链接**（官方公告、科技媒体报道、社区帖子等），方便用户点击鉴别真伪。格式示例：`- iOS 26.4.2 安全修复发布 — [MacRumors](https://www.macrumors.com/2026/04/22/apple-releases-ios-26-4-2/)`
+**🔗 每条发现必须附上原始信息来源链接**（官方公告、科技媒体报道、社区帖子等），方便用户点击鉴别真伪。**没有任何例外——即便是综合归纳性判断（如用户反馈提炼），也必须附上支撑该结论的 1–2 个来源链接。** 格式示例：`- iOS 26.4.2 安全修复发布 — [MacRumors](https://www.macrumors.com/2026/04/22/apple-releases-ios-26-4-2/)`
+
+**如果确实无法找到对应来源，必须通过 `web_search` 搜索补充，绝不能省略链接。**
 
 检查后无发现则标注「本周无重大更新」。
 
@@ -137,10 +139,13 @@ python3 scripts/research_plan.py --app "{app_name}"
 ### 内容结构
 - 每个厂商竞品一个独立章节，清晰分隔
 - 使用**数字序号列表**逐条展示，每条包含：分类标签（🆕/💬/📰）+ 内容描述 + 信息来源链接
+- **🔗 硬性要求：每一条信息（包括用户反馈的归纳性总结）都必须附上至少 1 个来源链接。绝对不允许出现没有链接的信息条目。**
+- 如果用户反馈是通过多个来源综合提炼的，至少附上 1–2 个支撑该结论的来源链接
 - 格式示例：
   ```
   1. 🆕 iOS 26.4.2 安全修复发布，修复 WebKit 漏洞。 — [MacRumors](https://www.macrumors.com/2026/04/22/apple-releases-ios-26-4-2/)
   2. 📰 Apple 宣布 iOS 26.5 开发者测试版已推送。 — [9to5Mac](https://9to5mac.com/...)
+  3. 💬 Wardrobe 功能引发讨论，用户评价两极——创意新奇但实用性待验证。 — [9to5Google](https://9to5google.com/2026/04/29/google-photos-wardrobe/) · [IndiaTV](https://www.indiatvnews.com/technology/news/google-photos-gets-wardrobe-tool-how-the-new-ai-feature-helps-plan-outfits-easily-2026-04-30-1039463)
   ```
 - 检查后无发现则标注「本周无重大更新」
 
